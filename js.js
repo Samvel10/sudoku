@@ -328,6 +328,7 @@ function hair(q){
 					}
 					level_a.className = "";
 					document.getElementById("wrong").innerHTML = "wrong: 0";
+					wrong = 0;
 					mil = 0;
 					second = 0; 
 					minute = 0;
@@ -377,6 +378,7 @@ function hair(q){
 					}
 					level_a.className = "";
 					document.getElementById("wrong").innerHTML = "wrong: 0";
+					wrong = 0;
 					mil = 0;
 					second = 0; 
 					minute = 0;

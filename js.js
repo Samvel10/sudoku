@@ -299,6 +299,13 @@ function hair(q){
 							c.onclick= function (event) {};
 						}
 					}
+					doc = document.getElementsByClassName("num");
+					for(let c of doc){
+						if (parseInt(c.innerHTML)===(h+1)) {
+							c.className = "num_null";
+							c.onclick= function (event) {};
+						}
+					}
 				}
 			}
 
@@ -341,7 +348,23 @@ function hair(q){
 					        hair(this); 
 					    };
 					}
-				},4000)
+					doc = document.getElementById("numb").children;
+					for (let c of doc) {
+					    c.className = "num";
+					    c.onclick = function (event) {
+					        event.preventDefault(); 
+					        hair(this); 
+					    };
+					}
+					doc = document.getElementById("numb").children;
+					for (let c of doc) {
+					    c.className = "num";
+					    c.onclick = function (event) {
+					        event.preventDefault(); 
+					        hair(this); 
+					    };
+					}
+				},4000);
 			}
 			
 			setTimeout(function(){
@@ -384,6 +407,22 @@ function hair(q){
 					minute = 0;
 					document.getElementById("TIME").innerHTML = `Time: 0${minute} min ${second} sec 0${mil++} mil`;
 					let doc = document.getElementById("numb").children;
+					for (let c of doc) {
+					    c.className = "num";
+					    c.onclick = function (event) {
+					        event.preventDefault(); 
+					        hair(this); 
+					    };
+					}
+					doc = document.getElementById("numb").children;
+					for (let c of doc) {
+					    c.className = "num";
+					    c.onclick = function (event) {
+					        event.preventDefault(); 
+					        hair(this); 
+					    };
+					}
+					doc = document.getElementById("numb").children;
 					for (let c of doc) {
 					    c.className = "num";
 					    c.onclick = function (event) {

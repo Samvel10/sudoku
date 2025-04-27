@@ -60,6 +60,7 @@ function print(){
 		for(let b=0; b<size; b++){
 			s += array[a][b]+" ";
 		}
+		console.log(s);
 	}
 }
 
@@ -259,7 +260,6 @@ function start(k, j){
 	mil=0;
 	clearInterval(timer);
 	time();
-	console.log(count);
 	console.log("----------------------");
 	print();	
 	console.log("----------------------");

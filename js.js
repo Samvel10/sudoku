@@ -60,7 +60,6 @@ function print(){
 		for(let b=0; b<size; b++){
 			s += array[a][b]+" ";
 		}
-		console.log(s);
 	}
 }
 
@@ -255,9 +254,7 @@ function start(k, j){
 			}
 		}
 	}
-	for(let d = 0; d<size; d++){
-		console.log(array_num[d]);
-	}	minute=0;
+	minute=0;
 	second=0;
 	mil=0;
 	clearInterval(timer);

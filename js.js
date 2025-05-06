@@ -429,7 +429,7 @@ function hair(q){
 					}
 				}, 4000);
 			}else{
-				https://github.com/Samvel10/sudoku/blob/main/100-k-1-wrong-answer.mp3.play();
+				"https://github.com/Samvel10/sudoku/blob/main/100-k-1-wrong-answer.mp3".play();
 				address.className = "red";
 				address.innerHTML=q.innerHTML;
 				setTimeout(function(){

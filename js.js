@@ -429,7 +429,7 @@ function hair(q){
 					}
 				}, 4000);
 			}else{
-				let aaa = document.getElementById("false").play();
+				document.getElementById("false").play();
 				consloe.loc(aaa.innerHTML);
 				console.log(aaa.value);
 				console.log(aaa);

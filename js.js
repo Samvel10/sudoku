@@ -430,9 +430,6 @@ function hair(q){
 				}, 4000);
 			}else{
 				document.getElementById("false").play();
-				consloe.loc(aaa.innerHTML);
-				console.log(aaa.value);
-				console.log(aaa);
 				address.className = "red";
 				address.innerHTML=q.innerHTML;
 				setTimeout(function(){

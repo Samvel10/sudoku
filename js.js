@@ -429,7 +429,7 @@ function hair(q){
 					}
 				}, 4000);
 			}else{
-				document.getElementById("false").addEventListener("click", () => {
+				document.getElementById("fal").addEventListener("click", () => {
 				  document.getElementById("false").play()
 				    .catch(err => console.error(err));
 				});

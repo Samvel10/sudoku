@@ -429,10 +429,7 @@ function hair(q){
 					}
 				}, 4000);
 			}else{
-				document.getElementById("fal").addEventListener("click", () => {
-				  document.getElementById("fal").play()
-				    .catch(err => console.error(err));
-				});
+				document.getElementById("fal").play();
 				address.className = "red";
 				address.innerHTML=q.innerHTML;
 				setTimeout(function(){

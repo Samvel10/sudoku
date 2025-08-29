@@ -429,7 +429,6 @@ function hair(q){
 					}
 				}, 4000);
 			}else{
-				clearInterval(Timer);
 				document.getElementById("fal").play();
 				address.className = "red";
 				address.innerHTML=q.innerHTML;
@@ -437,7 +436,6 @@ function hair(q){
 					address.className = "datark";
 					address.innerHTML="";
 					address = null;
-					time();
 				}, 1000);
 
 			}
@@ -445,4 +443,5 @@ function hair(q){
 		}
 	}
 }
+
 
